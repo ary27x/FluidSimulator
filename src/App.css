@@ -1,3 +1,18 @@
+*
+{
+  font-family: Poppins;
+  input[type="checkbox"] {
+    accent-color: green;
+  }
+  input[type="range"]
+  {
+    accent-color: black;
+  }
+}
+
+
+
+
 .App {
   text-align: center;
 }

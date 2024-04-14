@@ -1,0 +1,78 @@
+#settings-wrapper
+{
+    width: 17%;
+    background-color: rgb(65, 65, 65);
+    color : white
+}
+
+
+.menuElement
+{
+    display: flex;
+    border : 1px solid white;
+    justify-content: space-between;
+    padding-left: 0.5vh;
+    padding : 1vh;
+}
+
+
+.subMenuElement
+{
+    display: flex;
+    flex-direction: column;
+    border : 1px solid white;
+    align-items: flex-start;
+    padding-left: 0.5vh;
+    padding : 1vh;
+}
+#obsType
+{
+    padding : 1vh;
+    margin-bottom : 1vh;
+}
+.bottom
+{
+    display: flex;
+    padding : 2vh;
+    padding-left: 1vh;
+    font-family: Consolas;
+    color : white;
+}
+.bottom:hover
+{
+    /* opacity: 10%; */
+    color : blue;
+}
+
+.rangeMenu
+{
+    border : 1px solid white;
+}
+.checkboxElement
+{
+    display: flex;
+    justify-content: space-around;
+    padding-left: 0.5vh;
+    padding : 1vh;
+}
+
+.rangeInput
+{
+    display: flex;
+    flex-direction: column;
+    /* border : 1px solid white; */
+
+}
+
+.rangeInputLabel
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left : 1vh;
+    margin-right : 1vh;
+    color : black
+}
+
+
+

@@ -1,0 +1,11 @@
+#main-wrapper
+{
+    display: flex;
+    flex-direction: row;
+    height: calc(100vh) ;
+}
+.frame-display
+{
+    color : white;
+    user-select: none;
+}
