@@ -123,11 +123,11 @@ export default function Settings(props)
               
             </div>
 
-            {/* <a href="https://github.com/ary27x"  style={{textDecoration  : "none"}}>
+            <a href="https://github.com/ary27x"  style={{textDecoration  : "none"}}>
             <div className="bottom">
                 made by ary27x
                 </div>
-                </a> */}
+                </a> 
         </React.Fragment>
     )
 }
