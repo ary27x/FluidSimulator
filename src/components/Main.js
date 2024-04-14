@@ -7,12 +7,12 @@ import Settings from "./Settings";
 export default function Main()
 {
     const [colorInverted , setColorInverted] = useState(true)
-    const [obstacleColor , setObstacleColor] = useState("white")
+    const [obstacleColor , setObstacleColor] = useState("black")
     const [obstacleSize , setObstacleSize] = useState(8)
     const [obstacleShape , setObstacleShape] = useState("circle")
     const [gaussSeidelConstant , setGaussSeidelConstant] = useState(100)
-    const [tunnelDiameter , setTunnelDiameter] = useState(6.5)
-    const [fluidVelocity , setFluidVelocity] = useState(9)
+    const [tunnelDiameter , setTunnelDiameter] = useState(5)
+    const [fluidVelocity , setFluidVelocity] = useState(11.5)
     const [tunnelState , setTunnelState] = useState([true , false]) // east tunnel , west tunnel
     const [gridIntersectionMode , setGridIntersectionMode] = useState(true)
     const [obstacleType , setObstacleType] = useState("single")
